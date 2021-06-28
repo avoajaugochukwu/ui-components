@@ -1,7 +1,14 @@
+import Box from '../components/Box'
+
 function HomeScreen () {
   return (
-    <div>
-      <h1>Shout</h1>
+    <div className="px-10">
+      <div className="flex px-10">
+        <Box />
+        <Box />
+        <Box />
+
+      </div>
     </div>
   )
 }
