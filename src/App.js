@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <BrowserRouter>
       <Switch>
       <Route exact path="/" component={HomeScreen}></Route>

@@ -4,7 +4,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 function TrafalgarScreen () {
   return (
-    <div>
+    <div className="">
       <Nav />
       <Hero />
       Please
