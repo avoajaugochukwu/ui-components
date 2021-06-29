@@ -1,11 +1,13 @@
 import React from 'react'
+import arrow_white from '../img/iconfinder_4829869_arrow_next_right_icon_white.svg'
+import arrow_black from '../img/iconfinder_4829869_arrow_next_right_icon_black.svg'
 
-function Box (props) {
+function Box(props) {
   const { bgColor, header, month, day } = props
   return (
-    <div className="w-1/3 p-1 text-white">
-      <div className="bg-blue-700" style={{ backgroundColor: bgColor }}>
-        <div className="p-10">
+    <div className={`w-1/3 p-1 ${bgColor ? 'text-white' : 'text-black'} cursor-pointer`}>
+      <div className={`${bgColor ? 'bg-purple-900 hover:bg-purple-800 ' : 'bg-gray-200 hover:bg-gray-300'}`} >
+        <div className="p-10 h-80">
           <div>
             <div>
               {month}
@@ -13,10 +15,20 @@ function Box (props) {
             <div className="font-black">
               {day}
             </div>
-            
-            
           </div>
-          <h1 className="font-semibold text-2xl">{header}</h1>
+          <div className="font-semibold text-2xl pt-5 pb-10">
+            {header}
+          </div>
+          <div className="flex justify-between pt-10">
+            <div>
+              <p>Figma to React</p>
+              <p>2 hours</p>
+            </div>
+            <div className="ml-10 r-0">
+              <img src={`${bgColor ? arrow_white : arrow_black}`} className="arrow" alt="arrow" />
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

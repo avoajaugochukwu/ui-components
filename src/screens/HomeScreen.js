@@ -1,14 +1,18 @@
 import Box from '../components/Box'
 
 function HomeScreen () {
-  const bgPurple = '#544bab'
-  const bgGray = '#ececee'
   return (
     <div className="px-10 mx-10">
+      <div><h1 className="text-4xl text-center my-10">Figma to HTML templates</h1></div>
       <div className="flex px-10 mx-10">
-        <Box bgColor={bgPurple} header={'Tralfagar virtual healthcare'} month={'JUN'} day={4} />
-        <Box bgColor={bgGray} />
-        <Box bgColor={bgPurple} />
+        <Box bgColor={true} header={'Tralfagar virtual healthcare'} month={'JUN'} day={4} />
+        <Box bgColor={false} />
+        <Box bgColor={true} />
+      </div>
+      <div className="flex px-10 mx-10">
+        <Box bgColor={false} header={'Tralfagar virtual healthcare'} month={'JUN'} day={4} />
+        <Box bgColor={true} />
+        <Box bgColor={false} />
       </div>
     </div>
   )
