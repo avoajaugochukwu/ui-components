@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Hero from './Hero'
 import Services from './Services'
 import MiddleSections from './MiddleSections'
+import Customers from './Customers'
 
 function TrafalgarScreen () {
   return (
@@ -12,6 +13,8 @@ function TrafalgarScreen () {
       <Hero />
       <Services />
       <MiddleSections />
+      <Customers />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </div>
   )
 }
