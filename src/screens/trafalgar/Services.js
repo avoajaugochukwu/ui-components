@@ -10,10 +10,19 @@ import tracking from './img/tracking.svg'
 
 function Services() {
   return (
-    <div className="relative">
+    <>
+      <div>
+        <h2 className="text-4xl text-center font-semibold">Our Services</h2>
+        <div className="h-0.5 my-4 bg-gray-900 w-10 mx-auto"></div>
+        <p className="text-gray-500 mx-80 text-center">
+          We provide to you the best choiches for you. Adjust it to your health needs and make
+          sure your undergo treatment with our highly qualified doctors you can consult with us
+          which type of service is suitable for your health
+        </p>
+      </div>
       <div className="bg-blue-900 relative mr-24">
-        <img src={vector} className="absolute left-0 top-0 z-0" />
-        <img src={dot_element} className="absolute right-0 top-0 z-0" />
+        <img src={vector} alt="vector" className="absolute left-0 top-0 z-0" />
+        <img src={dot_element} alt="dot_element" className="absolute right-24 top-56 z-0" />
       </div>
       <div className="flex flex-wrap mx-60">
         <div className=" w-1/3 p-3  z-50 ">
@@ -59,10 +68,12 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="h-80 bg-gray-300 w-full">
-
+      <div className="text-center">
+        <button className="mx-auto border-2  border-blue-500 hover:bg-blue-500 hover:text-white text-sm mt-5 rounded-full px-8 py-2 text-blue-500 ">
+          Learn more
+        </button>
       </div>
-    </div>
+    </>
   )
 }
 
