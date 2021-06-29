@@ -1,7 +1,7 @@
 import './App.css';
 
 import HomeScreen from './screens/HomeScreen'
-import Trafalgar from './screens/trafalgar/Trafalgar'
+import TrafalgarScreen from './screens/trafalgar/TrafalgarScreen'
 
 import {
   BrowserRouter,
@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
       <Switch>
       <Route exact path="/" component={HomeScreen}></Route>
-      <Route exact path="/Trafalgar" component={Trafalgar}></Route>
+      <Route exact path="/Trafalgar" component={TrafalgarScreen}></Route>
       </Switch>
       </BrowserRouter>
       
