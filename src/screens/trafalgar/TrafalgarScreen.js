@@ -3,6 +3,7 @@
 import Nav from './Nav'
 import Hero from './Hero'
 import Services from './Services'
+import MiddleSections from './MiddleSections'
 
 function TrafalgarScreen () {
   return (
@@ -10,6 +11,7 @@ function TrafalgarScreen () {
       <Nav />
       <Hero />
       <Services />
+      <MiddleSections />
     </div>
   )
 }
