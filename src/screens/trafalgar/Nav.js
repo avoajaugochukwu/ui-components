@@ -23,7 +23,7 @@ const Nav = () => {
               title="Our product"
               className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Product
+              Home
               </a>
           </li>
           <li>
@@ -31,9 +31,9 @@ const Nav = () => {
               href="/"
               aria-label="Our product"
               title="Our product"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Features
+              Find a doctor
               </a>
           </li>
           <li>
@@ -41,9 +41,9 @@ const Nav = () => {
               href="/"
               aria-label="Product pricing"
               title="Product pricing"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Pricing
+              Apps
               </a>
           </li>
           <li>
@@ -51,12 +51,21 @@ const Nav = () => {
               href="/"
               aria-label="About us"
               title="About us"
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Testimonials
+              </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              aria-label="About us"
+              title="About us"
+              className="font-medium tracking-wide text-gray-400 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About us
               </a>
           </li>
-         
         </ul>
         <div className="lg:hidden">
           <button
@@ -119,7 +128,7 @@ const Nav = () => {
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        Home
                         </a>
                     </li>
                     <li>
@@ -129,7 +138,7 @@ const Nav = () => {
                         title="Our product"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Find a doctor
                         </a>
                     </li>
                     <li>
@@ -139,7 +148,17 @@ const Nav = () => {
                         title="Product pricing"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Pricing
+                        Apps
+                        </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/"
+                        aria-label="About us"
+                        title="About us"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Testimonials
                         </a>
                     </li>
                     <li>
@@ -150,9 +169,9 @@ const Nav = () => {
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         About us
-                        </a>
+                      </a>
                     </li>
-                    
+
                   </ul>
                 </nav>
               </div>
