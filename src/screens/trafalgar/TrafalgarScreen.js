@@ -6,6 +6,7 @@ import Services from './Services'
 import MiddleSections from './MiddleSections'
 import Customers from './Customers'
 import Articles from './Articles'
+import Footer from './Footer'
 
 function TrafalgarScreen () {
   return (
@@ -16,7 +17,7 @@ function TrafalgarScreen () {
       <MiddleSections />
       <Customers />
       <Articles />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Footer />
     </div>
   )
 }
