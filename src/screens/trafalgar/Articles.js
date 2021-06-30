@@ -3,7 +3,7 @@ import dot_element from './img/dot_element_2.svg'
 import article_doctor from './img/article_doctor.jpg'
 import article_facial from './img/article_facial.jpg'
 import article_microscope from './img/article_microscope.jpg'
-import arrow from './img/iconfinder_4115224_arrow_arrow left_right_blue.svg'
+import arrow from './img/iconfinder_4115224_arrow_right_blue.svg'
 
 function Articles() {
   return (

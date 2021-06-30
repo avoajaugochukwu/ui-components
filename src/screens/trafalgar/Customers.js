@@ -1,5 +1,7 @@
 import dot_element from './img/dot_element.svg'
 import customer_face from './img/customer_face.jpg'
+import arrow_right from './img/iconfinder_4115224_arrow_right_blue.svg'
+import arrow_left from './img/iconfinder_4829870_arrow_back_left_blue.svg'
 
 
 function Customers() {
@@ -32,7 +34,17 @@ function Customers() {
               </div>
 
             </div>
+
           </div>
+
+        </div>
+        <div className="text-center pt-4">
+          <img className="w-8 inline cursor-pointer" src={arrow_left} alt="arrow_left" />
+          <span className="w-2 h-2 text-blue-300 font-black pl-10 px-1">&bull;</span>
+          <span className="w-2 h-2 text-blue-400 font-black px-1">&bull;</span>
+          <span className="w-2 h-2 text-blue-300 font-black px-1">&bull;</span>
+          <span className="w-2 h-2 text-blue-300 font-black px-1 pr-10">&bull;</span>
+          <img className="w-8 inline cursor-pointer" src={arrow_right} alt="arrow_right" />
         </div>
       </div>
 
